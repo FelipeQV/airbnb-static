@@ -1,0 +1,16 @@
+
+
+<h1 class="text-center">Tha Squad</h1>
+
+<ul class="list-inline text-center">
+  <% ["anne", "seb", "romain"].each do |member| %>
+
+  <li>
+    <img src="images/<%= member%>.jpg" width="100" class="img-circle" alt="">
+    <h3><%= member.capitalize %></h3>
+  </li>
+
+  <% end %>
+</ul>
+
+
